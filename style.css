@@ -1,0 +1,44 @@
+/* Commenting out the existing styling for the li element */
+/* li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} */
+
+/* Adding styles for the nav element */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Styling the image in the nav element */
+nav img {
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
+/* Styling the grid class */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+/* Styling the images in the grid class */
+.grid img {
+    width: 100%;
+}
+
+/* Adjusting the grid class further */
+.grid {
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Styling the flex class */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
